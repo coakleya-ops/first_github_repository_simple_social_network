@@ -8,3 +8,9 @@ class Person:
                 connections (set of Person): other people in the social network
                     who knows this person. 
     """
+
+    def connect(self, person2):
+        """ Connect with person2.
+            Args: 
+                person2 (Person): the other person to connect to. 
+        """
